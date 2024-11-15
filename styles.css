@@ -1,0 +1,104 @@
+.attribution { font-size: 11px; text-align: center; margin-top:100px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: figtreeregular;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtreeitalic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtreeextrabold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: figtreesemibold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+body{
+    background-color:#F4D04E;
+    margin:0;
+    display:flex;
+    height:100vh;
+    align-items:center;
+    color:#111111;
+    line-height:160%;
+}
+
+#block{
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 10px 10px #111111;
+    border:1px solid #111111;
+    margin:auto;
+    transition: .3s;
+}
+
+#content{
+    width:336px;
+    margin:24px;
+}
+
+.designimg{
+    width:336px;
+    height:200px;
+    border-radius:10px;
+    display:block;
+    margin:auto;
+}
+
+.learning{
+    background-color:#F4D04E;
+    border-radius:4px;
+    width:82px;
+    height:29px;
+    text-align:center;
+    font-family:figtreeextrabold;
+    font-size:14px;
+    line-height: 29px;
+    margin-top:20px;
+}
+
+.published{
+    font-family: figtreeregular;
+}
+
+.foundations{
+    font-family:figtreeextrabold;
+    font-size:24px;
+    transition:.3s;
+}
+
+.text{
+    font-family: figtreeregular;
+    color:#6b6b6b;
+    font-size:16px;
+}
+
+.author{
+    font-family:figtreeextrabold;
+    display:flex;
+    align-items:center;
+    font-size:14px;
+    margin-top:25px;
+}
+
+.pfp{
+    width:32px;
+    height:32px;
+    margin-right:10px;
+}
+
+#block:hover .foundations{
+    color:#F4D04E
+}
+
+#block:hover{
+    box-shadow: 20px 20px #111111;
+}
